@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
     <script>
     window.console = window.console || function(t) {};
@@ -38,13 +39,20 @@
                             <li>
                                 <a href="#click" class="menu">
                     <h2 class="menu-title  menu-title_1st">Продукты</h2>
-                    <ul class="menu-dropdown">
+                    <ul class="menu-dropdown" id = "main-ul">
                         <li>Мясо</li>
                         <li>Колбасы</li>
-                        <li>Рыба</li>
-                        <li>Бакалея</li>
+                        <li>Рыба</li>                       
                         <li>Овощи и фрукты</li>
                         <li>Подарки</li>
+                        <li class = "accordion">Бакалея</li>
+                            <li class = "subitems">Молочные продукты</li>
+                            <li class = "subitems">Консервы</li>
+                            <li class = "subitems">Заморозка</li>
+                            <li class = "subitems">Каши и мучное</li>
+                            <li class = "subitems">Специи и соусы</li>
+                            <li class = "subitems">Сладости и семечки</li>
+                            <li class = "subitems">Напитки и алкоголь</li>
                     </ul>
                 </a>
                             </li>
@@ -78,19 +86,21 @@
                 <div class="week-discount">
                     Скидки недели
                 </div>
+
+
                 <div class="products">
                     <div class="items-row">
-                        <div class="item"><p>Куриные ножки</p><img src="img/1.jpg" ></div>
-                            <div class="item"><p>Говядина в/с</p><img src="img/3.jpg"></div>
-                                <div class="item"><p>Свинина лопатка</p><img src="img/2.jpg"></div>
+                        <div class="item"><p>Куриные ножки</p><img src="img/1.jpg" ><div class="discount_30"><img src="img/discount_30.png"></div></div>
+                            <div class="item"><p>Говядина в/с</p><img src="img/3.jpg"><div class="discount_20"><img src="img/discount_20.png"></div></div>
+                                <div class="item"><p>Свинная лопатка</p><img src="img/2.jpg"><div class="discount_30"><img src="img/discount_30.png"></div></div>
                                 </div>
                                 <div class="items-row">
                                     <div class="item">
                                         <p>Свинина без кости</p>
-                                        <img src="img/4.jpg"></div>
+                                        <img src="img/4.jpg"><div class="discount_20"><img src="img/discount_20.png"></div></div>
                                         <div class="item">
-                                            <p>Куриная грудка</p><img src="img/5.jpg"></div>
-                                            <div class="item"><p>Икра красная 200гр.</p><img src="img/6.jpg"></div>
+                                            <p>Куриная грудка</p><img src="img/5.jpg"><div class="discount_30"><img src="img/discount_30.png"></div></div>
+                                            <div class="item"><p>Икра красная 200гр.</p><img src="img/6.jpg"><div class="discount_20"><img src="img/discount_20.png"></div></div>
                                             </div>
                                         </div>
                                         <div class="footer">

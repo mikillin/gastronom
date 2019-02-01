@@ -24,7 +24,7 @@ cursor: pointer;
 }
 .menu-title {
 display: block;
-width: 150px;
+width: 192;
 height: 40px;
 padding: 12px 0 0;
 background: #9dc852;
@@ -124,7 +124,7 @@ border-top-color: #beb5ab;
 border-top-color: #99928a;
 }
 .menu-dropdown {
-min-width: 100%;
+width: 100%;
 padding: 15px 0;
 position: absolute;
 background: #ebebeb;
@@ -191,12 +191,13 @@ float: left;
 margin-left: 0;
 }
 .content {
-width: 750px;
+width: 960px;
 float: right;
 margin-top: -20px;
 }
 div.header {
 height: 160px;
+/**background-color:orange;*/
 background-image: url("../img/header.jpg");
 background-size: cover;
 background-repeat: no-repeat;
@@ -206,7 +207,7 @@ img.lng{
 cursor: pointer;
 }
 img.logo {
-max-width: 200px;
+max-width: 192px;
 height: auto;
 padding-top: 15px;
 padding-left: 30px;
@@ -244,7 +245,7 @@ margin-bottom: 30px;
 .item{
 float: left;
 padding: 10px 30px;
-margin: 10px;
+margin: 15px;
 border-style: dotted;
 border-width: medium;
 border-color: #8db842;
@@ -265,7 +266,7 @@ margin-top: 20px;
 div.items-row{
 margin-left: auto;
 margin-right: auto;
-width: 900px;
+width: 920px;
 }
 div.item img{
 width:200px;
@@ -286,4 +287,43 @@ width: 960px;
 margin-left: auto;
 margin-right: auto;
 background-color: #ffffff;
+}
+
+div.discount_30, div.discount_20{
+  position: relative;
+  top: -80px;         
+  left: 120px;
+  width: 0px;
+  height: 0px;
+}
+
+div.discount_30 img{
+  height: 80px;
+  width: auto;  
+}
+
+div.discount_20 img{
+  height: 40px;
+  width: auto;  
+}
+
+
+.subitems {
+  padding: 0 18px;
+  display: none;
+  width: 192px;
+  transition: 0.2s border-bottom ease-in;
+}
+
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
