@@ -254,13 +254,23 @@ clear: both;
 }
 div.week-discount
 {
-margin-top: 80px;
 padding-left: 20px;
 font-size: 18px;
 font-weight: bold;
 
-}div.products{
-margin-top: 20px;
+}
+
+div.category-direction-msg
+{
+padding-top: 180px;
+padding-left: 20px;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+div.products{
+padding-bottom: 80px;
 }
 div.items-row{
 margin-left: auto;
@@ -286,6 +296,7 @@ width: 960px;
 margin-left: auto;
 margin-right: auto;
 background-color: #ffffff;
+padding-bottom: 35px;
 }
 
 div.discount_30, div.discount_20{
@@ -311,7 +322,7 @@ div.discount_20 img{
   padding-left: 18px;
   display: none;
   width: 192px;
-  transition: 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 0.6s visibility, 2.2s border-bottom ease-in, 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
+  transition: opacity 600ms, visibility 600ms, 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 2.2s border-bottom ease-in, 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
 
 }
 
@@ -327,4 +338,9 @@ li#accordion:after {
 
 li#accordion.active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+div.nav {
+  padding-bottom: 80px;
 }
