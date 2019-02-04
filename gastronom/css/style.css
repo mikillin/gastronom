@@ -123,14 +123,14 @@ border-top-color: #beb5ab;
 border-top-color: #99928a;
 }
 .menu-dropdown {
-width: 100%;
+width: 192px;
 padding: 15px 0;
 position: absolute;
 background: #ebebeb;
 z-index: 100;
 transition: 0.5s padding, 0.5s background;
 }
-.menu-dropdown li:hover {
+.menu-dropdown a li:hover {
 background: #9dc852;
 color: #ffffff;
 transition: 0.2s background;
@@ -162,7 +162,7 @@ border-top-color: #dddddd;
 .menu:not(:hover) > .menu-title:after {
 border-bottom-color: #dddddd;
 }
-.menu-dropdown > * {
+.menu-dropdown a > * {
 overflow: hidden;
 height: 30px;
 padding: 5px 10px;
@@ -170,10 +170,10 @@ background: rgba(0, 0, 0, 0);
 white-space: nowrap;
 transition: 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
 }
-.menu-dropdown > *:hover {
+.menu-dropdown a > *:hover {
 background: rgba(0, 0, 0, 0.1);
 }
-.menu:not(:hover) > .menu-dropdown > * {
+.menu:not(:hover) > .menu-dropdown a > * {
 visibility: hidden;
 height: 0;
 padding-top: 0;
@@ -195,9 +195,9 @@ float: right;
 margin-top: -20px;
 }
 div.header {
-height: 160px;
-/**background-color:orange;*/
-background-image: url("../img/header.jpg");
+height: 100px;
+background-color:red;
+/**background-image: url("../img/header.jpg");*/
 background-size: cover;
 background-repeat: no-repeat;
 clear: left;
@@ -243,7 +243,7 @@ margin-bottom: 30px;
 }
 .item{
 float: left;
-padding: 10px 30px;
+padding: 10px 35px;
 margin: 15px;
 border-style: dotted;
 border-width: medium;
@@ -299,26 +299,20 @@ background-color: #ffffff;
 padding-bottom: 35px;
 }
 
-div.discount_30, div.discount_20{
+div.discount{
   position: relative;
-  top: -80px;         
-  left: 120px;
+  top: -50px;         
+  left: 170px;
   width: 0px;
   height: 0px;
 }
 
-div.discount_30 img{
-  height: 80px;
+div.discount img{
+  height: 50px;
   width: auto;  
 }
 
-div.discount_20 img{
-  height: 40px;
-  width: auto;  
-}
-
-
-.subitems {
+.subitem {
   padding-left: 18px;
   display: none;
   width: 192px;
@@ -343,4 +337,66 @@ li#accordion.active:after {
 
 div.nav {
   padding-bottom: 80px;
+}
+
+div.name, div.moto{
+  font-weight: bold;
+    color: white;
+}
+
+
+div.name{
+  font-size: 36px;
+}
+div.header-text{
+  text-align: center;
+  vertical-align: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 80px;
+  width: 250px;
+  cursor: pointer;
+}
+
+div.about {
+margin: 80px auto;
+  width: 860px;
+  text-align: center;
+  line-height: 24px;
+}
+
+textarea {
+  width: 50%;
+}
+
+p.submit-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type=submit]{
+  height: 40px;
+  width: 170px;
+  color: white;
+  border: none;
+  background-color: #3e86a3;
+  border-radius: 4px;
+}
+
+div.main-content.full{
+  height: 100%;
+}
+
+div.info{
+  padding-top: 100px;
+}
+div.text{
+  padding-top: 20px;
+}
+
+div.text, div.info{
+   padding-left: 40px;
+   padding-right: 40px;
+   width: 800px;
+   line-height: 24px;
 }
