@@ -11,10 +11,10 @@ panel.css("display", "inline-block");
 }
 });
 
-/**
-var acc = $(".link");
-acc.bind("click", function() {
+
+var link = $(".link");
+link.bind("click", function() {
 window.location.href = $(this).attr("data-category") + ".html";
 
-});*/
+});
 });
