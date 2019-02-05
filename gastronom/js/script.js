@@ -14,6 +14,7 @@ panel.css("display", "inline-block");
 
 var link = $(".link");
 link.bind("click", function() {
+	console.log($(this).attr("data-category"));
 window.location.href = $(this).attr("data-category") + ".html";
 
 });

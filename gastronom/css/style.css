@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 html {
 background-color: #f8f8f8;
+position: relative;
+  min-height: 100%;
 }
 body {
 width: 960px;
@@ -245,9 +247,11 @@ margin-bottom: 30px;
 float: left;
 padding: 10px 35px;
 margin: 15px;
+width: 275px;
 border-style: dotted;
 border-width: medium;
 border-color: #8db842;
+align-content: center;
 }
 .items-row, div.products{
 clear: both;
@@ -278,8 +282,12 @@ margin-right: auto;
 width: 920px;
 }
 div.item img{
-width:200px;
-height:auto;
+max-width:200px;
+max-height: 200px;
+margin-left: auto;
+margin-right: auto;
+ display: block;
+      margin: 0 auto; 
 }
 div.item p
 {
@@ -380,7 +388,7 @@ input[type=submit]{
   border-radius: 4px;
 }
 
-div.main-content.full{
+.full{
   height: 100%;
 }
 
@@ -409,6 +417,6 @@ img.about-us-images{
   margin-left: 65px;
 }
 
-.menu-title, li.link, li#accordion {
+.menu-title, .link, li#accordion {
   cursor: pointer;
 }
