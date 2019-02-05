@@ -1,13 +1,20 @@
 $( document ).ready(function() {
 var acc = $("#accordion");
 acc.bind("click", function() {
-            acc.toggleClass("active");
-            var panel = $(".subitems");
+acc.toggleClass("active");
 
-            if (panel.css("display") === "inline-block") {
-                panel.css("display", "none");
-            } else {
-                panel.css("display", "inline-block");
+var panel = $(".subitem");
+if (panel.css("display") === "inline-block") {
+panel.css("display", "none");
+} else {
+panel.css("display", "inline-block");
 }
 });
+
+/**
+var acc = $(".link");
+acc.bind("click", function() {
+window.location.href = $(this).attr("data-category") + ".html";
+
+});*/
 });

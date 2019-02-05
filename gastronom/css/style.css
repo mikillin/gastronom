@@ -130,7 +130,7 @@ background: #ebebeb;
 z-index: 100;
 transition: 0.5s padding, 0.5s background;
 }
-.menu-dropdown a li:hover {
+.menu-dropdown li:hover {
 background: #9dc852;
 color: #ffffff;
 transition: 0.2s background;
@@ -162,7 +162,7 @@ border-top-color: #dddddd;
 .menu:not(:hover) > .menu-title:after {
 border-bottom-color: #dddddd;
 }
-.menu-dropdown a > * {
+.menu-dropdown > * {
 overflow: hidden;
 height: 30px;
 padding: 5px 10px;
@@ -170,10 +170,10 @@ background: rgba(0, 0, 0, 0);
 white-space: nowrap;
 transition: 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
 }
-.menu-dropdown a > *:hover {
+.menu-dropdown > *:hover {
 background: rgba(0, 0, 0, 0.1);
 }
-.menu:not(:hover) > .menu-dropdown a > * {
+.menu:not(:hover) > .menu-dropdown > * {
 visibility: hidden;
 height: 0;
 padding-top: 0;
@@ -321,7 +321,7 @@ div.discount img{
 }
 
 
-li#accordion:after {
+li #accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 10px;
   line-height: 20px;
@@ -365,9 +365,6 @@ margin: 80px auto;
   line-height: 24px;
 }
 
-textarea {
-  width: 50%;
-}
 
 p.submit-button {
   margin-top: 20px;
@@ -399,4 +396,19 @@ div.text, div.info{
    padding-right: 40px;
    width: 800px;
    line-height: 24px;
+}
+
+a{
+  display: block;
+}
+
+img.about-us-images{
+  float: left;
+  height: 150px;
+  width: 200px;
+  margin-left: 65px;
+}
+
+.menu-title, li.link, li#accordion {
+  cursor: pointer;
 }
