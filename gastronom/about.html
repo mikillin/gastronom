@@ -7,93 +7,132 @@
     <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
     <script>
-    window.console = window.console || function(t) {};
+        window.console = window.console || function (t) {
+        };
     </script>
     <script>
-    if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-    }
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
     </script>
 </head>
 <body translate="no">
-    <div class="main-content full">
-        <div class="language">
-            <img class = "lng" src="img/language/deu.png"/>
-            <img class = "lng" src="img/language/rus.png"/>          
-        </div>
-        <a href="index.html"><div class="header">
+<div class="main-content">
+    <div class="language">
+        <img class="lng" src="img/language/deu.png"/>
+        <img class="lng" src="img/language/rus.png"/>
+    </div>
+    <a href="index.html">
+        <div class="header">
             <!--<img class="logo" src="img/logo.png"/>-->
-            <div class="header-text"><div class="name">ГАСТРОНОМ</div>
-            <div class="moto">Продукты для вкусной еды!</div> </div>
+            <div class="header-text">
+                <div class="name">ГАСТРОНОМ</div>
+                <div class="moto">Продукты для вкусной еды!</div>
+            </div>
         </div>
     </a>
     <div class="content">
-                    <div class="nav">
-                        <ul class="hList">
-                            <li>
-                                <a href="discount.html" class="menu">
-                    <h2 class="menu-title  menu-title_0">Акции</h2>
-                    <ul class="menu-dropdown alone">
+        <div class="nav">
+            <ul class="hList">
+                <li>
+                    <a href="discount.html" class="menu">
+                        <h2 class="menu-title  menu-title_0">Акции</h2>
+                        <ul class="menu-dropdown alone">
 
-                    </ul>
-                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="menu" data-category = "diary">
-                    <h2 class="menu-title  menu-title_1st">Продукты</h2>
-                    <ul class="menu-dropdown" id = "main-ul">
-                        <li class = "link" data-category = "meat">Мясо</li>
-                        <li class = "link" data-category = "sausages">Колбасы</li>
-                        <li class = "link" data-category = "fish">Рыба</li>                       
-                        <li class = "link" data-category = "fruits_and_vegetables">Овощи и фрукты</li>
-                        <li class = "link" data-category = "presents">Подарки</li>
-                        <li id  = "accordion">Бакалея</li>
-                            <li class = "subitem link" data-category = "diary">Молочные продукты</li>
-                            <li class = "subitem link" data-category = "conserves">Консервы</li>
-                            <li class = "subitem link" data-category = "frosted">Заморозка</li>
-                            <li class = "subitem link" data-category = "flour">Каши и мучное</li>
-                            <li class = "subitem link" data-category = "spice">Специи и соусы</li>
-                            <li class = "subitem link" data-category = "sweets">Сладости и семечки</li>
-                            <li class = "subitem link" data-category = "drinks">Напитки и алкоголь</li>
-                    </ul>
-                </a>
-                            </li>
-                            <li>
-                                <a href="about.html" class="menu">
-                    <h2 class="menu-title menu-title_2nd">О нас</h2>
-                    <ul class="menu-dropdown alone">
-
-                    </ul>
-                </a>
-                            </li>
-                            <li>
-                                <a href="contacts.html" class="menu">
-                    <h2 class="menu-title menu-title_3rd">Контакты</h2>
-                    <ul class="menu-dropdown alone">
-
-                    </ul>
-                </a>
-                            </li>
-                            <li>
-                                <a href="job.html" class="menu">
-                    <h2 class="menu-title menu-title_4th">Вакансии</h2>
-                    <ul class="menu-dropdown alone">
-
-                    </ul>
-                </a>
-                            </li>
                         </ul>
-                    </div>
-                </div>
-    <div class = "about"><p><img id="33716136" title="" alt="" src="img/big_33716136_0_200-150.jpg" style="margin-right: 10px; margin-bottom: 10px; margin-left: 0px;" width="200" vspace="0" hspace="0" height="150" border="0" align="left"></p><p style="text-align: justify;">Несмотря на то, что наш магазин открывает свои двери покупателям всего пятый год, мы уже зарекомендовал себя, как стабильный с положительной репутацией один из лучших магазинов города.</p><p style="text-align: justify;">Обладая большим опытом в розничной торговле продуктами питания и сопутствующими товарами, мы имеем чёткое представление об интересующем Вас ассортименте и гарантируем их качество. Бесперебойность работы наших поставщиков,&nbsp;которыми являются крупные и серьёзные</p><p><img id="33716297" title="" alt="" src="img/big_33716297_0_200-150.jpg" style="margin-right: 0px; margin-left: 10px; margin-bottom: 10px;" width="200" vspace="0" hspace="0" height="150" border="0" align="right"></p><p style="text-align: justify;">компании, проработавшие&nbsp;&nbsp;на&nbsp;рынке&nbsp;не&nbsp;один&nbsp;год,&nbsp;обеспечивает&nbsp;постоянное&nbsp;наличие богатого ассортимента товаров.</p><p style="text-align: justify;">Основу предприятия&nbsp;составляют&nbsp;специалисты с многолетним опытом работы в торговле.</p><p style="text-align: justify;">Наш ассортимент необычайно широк и разнообразен. Покупатель может выбрать у нас не только продукты, но и сопутствующие товары.</p><p style="clear: both;" id="floatClearer_33716297">&nbsp;</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="menu link" data-category="products">
+                        <h2 class="menu-title  menu-title_1st">Продукты</h2>
+                        <ul class="menu-dropdown" id="main-ul">
+                            <li class="link" data-category="meat">Мясо</li>
+                            <li class="link" data-category="sausages">Колбасы</li>
+                            <li class="link" data-category="fish">Рыба</li>
+                            <li class="link" data-category="grass">Овощи и фрукты</li>
+                            <li class="link" data-category="presents">Подарки</li>
+                            <li id="accordion">Бакалея</li>
+                            <li class="subitem link" data-category="dairy">Молочные продукты</li>
+                            <li class="subitem link" data-category="conserves">Консервы</li>
+                            <li class="subitem link" data-category="frosted">Заморозка</li>
+                            <li class="subitem link" data-category="flour">Каши и мучное</li>
+                            <li class="subitem link" data-category="spice">Специи и соусы</li>
+                            <li class="subitem link" data-category="sweets">Сладости и семечки</li>
+                            <li class="subitem link" data-category="drinks">Напитки и алкоголь</li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" class="menu">
+                        <h2 class="menu-title menu-title_2nd">О нас</h2>
+                        <ul class="menu-dropdown alone">
 
-<div class = "about-us-bottom-images">
-    <img id="33716263" class = "about-us-images" src="img/big_33716263_0_200-150.jpg"/>
-    <img id="33716235" class = "about-us-images" src="img/big_33716235_0_200-150.jpg"/>
-    <img id="33716207" class = "about-us-images" src="img/big_33716207_0_200-150.jpg"/>
-</div>
-        
-    
-   
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="contacts.html" class="menu">
+                        <h2 class="menu-title menu-title_3rd">Контакты</h2>
+                        <ul class="menu-dropdown alone">
+
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="job.html" class="menu">
+                        <h2 class="menu-title menu-title_4th">Вакансии</h2>
+                        <ul class="menu-dropdown alone">
+
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="about"><p><img id="33716136" title="" alt="" src="img/big_33716136_0_200-150.jpg"
+                               style="margin-right: 10px; margin-bottom: 10px; margin-left: 0px;" width="200" vspace="0"
+                               hspace="0" height="150" border="0" align="left"></p>
+        <p style="text-align: justify;">Несмотря на то, что наш магазин открывает свои двери покупателям всего пятый
+            год, мы уже зарекомендовал себя, как стабильный с положительной репутацией один из лучших магазинов
+            города.</p>
+        <p style="text-align: justify;">Обладая большим опытом в розничной торговле продуктами питания и сопутствующими
+            товарами, мы имеем чёткое представление об интересующем Вас ассортименте и гарантируем их качество.
+            Бесперебойность работы наших поставщиков,&nbsp;которыми являются крупные и серьёзные</p>
+        <p><img id="33716297" title="" alt="" src="img/big_33716297_0_200-150.jpg"
+                style="margin-right: 0px; margin-left: 10px; margin-bottom: 10px;" width="200" vspace="0" hspace="0"
+                height="150" border="0" align="right"></p>
+        <p style="text-align: justify;">компании, проработавшие&nbsp;&nbsp;на&nbsp;рынке&nbsp;не&nbsp;один&nbsp;год,&nbsp;обеспечивает&nbsp;постоянное&nbsp;наличие
+            богатого ассортимента товаров.</p>
+        <p style="text-align: justify;">Основу предприятия&nbsp;составляют&nbsp;специалисты с многолетним опытом работы
+            в торговле.</p>
+        <p style="text-align: justify;">Наш ассортимент необычайно широк и разнообразен. Покупатель может выбрать у нас
+            не только продукты, но и сопутствующие товары.</p>
+        <p style="clear: both;" id="floatClearer_33716297">&nbsp;</p>
+
+        <div class="about-us-bottom-images">
+            <img id="33716263" class="about-us-images" src="img/big_33716263_0_200-150.jpg"/>
+            <img id="33716235" class="about-us-images" src="img/big_33716235_0_200-150.jpg"/>
+            <img id="33716207" class="about-us-images" src="img/big_33716207_0_200-150.jpg"/>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <hr class="primary">
+        <div>
+            <h2 class="section-heading">Гастроном</h2>
+            <p>
+                Продукты для вкусной еды
+            </p>
+            <p>
+                Наш адрес: г.Брест, пр. Ф.Скорины 19. Тел. +375 (27) 212-333-444
+            </p>
+        </div>
+        <div class="email">
+            <p>
+                E-mail: gastronom@gmail.com
+            </p>
+        </div>
+    </div>
 </div>
 </body>
