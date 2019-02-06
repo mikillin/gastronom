@@ -90,67 +90,85 @@ a {
 }
 
 .menu-title_0 {
-    background: #dbab58;
+    background: #748c57;
 }
 
 .menu-title_0:hover {
-    background: #cb9b48;
+    background: #809b5e;
 }
 
 .menu-title_0:before {
-    border-top-color: #dbab58;
+    border-top-color: #748c57;
 }
 
 .menu-title_0:hover:before {
-    border-top-color: #cb9b48;
+    border-top-color: #809b5e;
 }
 
+.menu-title_1st {
+    background: #8ca868;
+}
+
+.menu-title_1st:hover {
+    background: #96b570;
+}
+
+.menu-title_1st:before {
+    border-top-color: #8ca868;
+}
+
+.menu-title_1st:hover:before {
+    border-top-color: #96b570;
+}
+
+
+
 .menu-title_2nd {
-    background: #4e96b3;
+    background: #748c57;
 }
 
 .menu-title_2nd:hover {
-    background: #3e86a3;
+    background: #809b5e;
 }
 
 .menu-title_2nd:before {
-    border-top-color: #4e96b3;
+    border-top-color: #748c57;
 }
 
 .menu-title_2nd:hover:before {
-    border-top-color: #3e86a3;
+    border-top-color: #809b5e;
 }
 
 .menu-title_3rd {
-    background: #c97676;
+    background: #8ca868;
 }
 
 .menu-title_3rd:hover {
-    background: #b96666;
+    background: #9fbf76;
 }
 
 .menu-title_3rd:before {
-    border-top-color: #c97676;
+    border-top-color: #8ca868;
 }
 
 .menu-title_3rd:hover:before {
-    border-top-color: #b96666;
+    border-top-color: #9fbf76;
 }
 
 .menu-title_4th {
-    background: #beb5ab;
+    background: #748c57;
 }
 
 .menu-title_4th:hover {
-    background: #99928a;
+    background: #809b5e;
 }
 
 .menu-title_4th:before {
-    border-top-color: #beb5ab;
+    border-top-color: #748c57;
 }
 
 .menu-title_4th:hover:before {
-    border-top-color: #99928a;
+    border-top-color: #809b5e;
 }
 
 .menu-dropdown {
@@ -163,7 +181,7 @@ a {
 }
 
 .menu-dropdown li:hover {
-    background: #9dc852;
+    background: #ada8a8;
     color: #ffffff;
     transition: 0.2s background;
 }
@@ -239,8 +257,8 @@ a {
 }
 
 div.header {
-    height: 100px;
-    background-color: red;
+    height: 85px;
+    background-color: #3c6011;
     /**background-image: url("../img/header.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
@@ -303,7 +321,8 @@ hr {
     width: 275px;
     border-style: dotted;
     border-width: medium;
-    border-color: #8db842;
+    border-color: #ec8c0b;
+	border-width: 2px;
     align-content: center;
 }
 
@@ -413,7 +432,7 @@ div.nav {
 
 div.name, div.moto {
     font-weight: bold;
-    color: white;
+    color: #ec8c0b;
 }
 
 div.name {
@@ -423,7 +442,7 @@ div.name {
 div.header-text {
     text-align: center;
     vertical-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 20px;
     height: 80px;
     width: 250px;
