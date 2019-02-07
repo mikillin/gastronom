@@ -343,10 +343,16 @@ div.week-discount {
 
 div.category-direction-msg {
     padding-top: 180px;
-    padding-left: 20px;
+    padding-left: 35px;
     font-size: 18px;
     font-weight: bold;
 }
+
+div.category-direction-msg:first-child {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
 
 div.category-description {
     padding-top: 60px;
@@ -502,4 +508,36 @@ img.about-us-images {
 
 .menu-title, .link, li#accordion {
     cursor: pointer;
+}
+
+div.discount-header{
+    float: left;
+}
+
+div.discount-header{   
+     background-image: url("../img/shopping_brd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    height: 200px;
+    width: 275px;
+    
+    font-size: 15px;
+    color: orange;
+    margin: 15px;
+}
+div.discount-header:first-child{
+     background-image: url("../img/discount_brd.jpg");
+}
+
+div.discount-header:last-child{
+     background-image: url("../img/order_brd.jpg");
+}
+
+div.colored-band{
+    background-color: rgba(60, 96, 17, 0.6);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
 }
