@@ -525,6 +525,7 @@ div.discount-header{
     font-size: 15px;
     color: orange;
     margin: 15px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.7); /* Параметры тени */
 }
 div.discount-header:first-child{
      background-image: url("../img/discount_brd.jpg");
